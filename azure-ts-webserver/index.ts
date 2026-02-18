@@ -41,7 +41,7 @@ const networkInterface = new network.NetworkInterface("server-nic", {
 });
 
 const initScript = `#!/bin/bash\n
-echo "Hello, World!" > index.html
+echo "Hello Frank, World!" > index.html
 nohup python -m SimpleHTTPServer 80 &`;
 
 // Now create the VM, using the resource group and NIC allocated above.
