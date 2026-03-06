@@ -40,7 +40,7 @@ const codeBlob = new storage.Blob("zip", {
 const plan = new web.AppServicePlan("plan", {
     resourceGroupName: resourceGroup.name,
     sku: {
-        name: "Y1",
+        name: "F1",
         tier: "Free",
     },
 });
