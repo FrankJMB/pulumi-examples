@@ -41,7 +41,7 @@ const plan = new web.AppServicePlan("plan", {
     resourceGroupName: resourceGroup.name,
     sku: {
         name: "Y1",
-        tier: "Dynamic",
+        tier: "Free",
     },
 });
 
